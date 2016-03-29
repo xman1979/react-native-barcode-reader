@@ -2,12 +2,20 @@
 
 import React, {
   PropTypes,
+  Component,
+  View,
   requireNativeComponent,
 } from 'react-native';
 
 export default class BarcodeReaderView extends Component {
   static propTypes = {
+    ...View.propTypes,
     onBarCodeRead: PropTypes.func,
+    rotation: PropTypes.number,
+    scaleX: PropTypes.number,
+    scaleY: PropTypes.number,
+    translateX: PropTypes.number,
+    translateY: PropTypes.number,
   }
 
   constructor(props) {
@@ -33,5 +41,7 @@ export default class BarcodeReaderView extends Component {
   }
 }
 let RCTBarcodeReaderView = requireNativeComponent('RCTBarcodeReaderView', BarcodeReaderView, {
-  nativeOnly: {onChange: true}
+  nativeOnly: {
+    onChange: true
+  }
 });

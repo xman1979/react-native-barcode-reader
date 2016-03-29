@@ -66,8 +66,6 @@ public class ReactBarcodeReaderView extends CameraSourcePreview {
                     event
             );
             stopUpdates();
-            stop();
-            release();
         }
     }
 
