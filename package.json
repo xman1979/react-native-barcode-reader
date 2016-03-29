@@ -1,0 +1,24 @@
+{
+  "name": "react-native-barcode-reader",
+  "version": "1.0.0",
+  "description": "barcoder reader for android using google play service",
+  "main": "BarcodeReaderView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxiaodong97/react-native-barcode-reader.git"
+  },
+  "keywords": [
+    "react-native",
+    "barcode",
+    "camera"
+  ],
+  "author": "Adam Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxiaodong97/react-native-barcode-reader/issues"
+  },
+  "homepage": "https://github.com/maxiaodong97/react-native-barcode-reader#readme",
+}
