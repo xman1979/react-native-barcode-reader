@@ -1,69 +1,24 @@
 {
-  "_args": [
-    [
-      "react-native-barcode-reader@https://github.com/maxiaodong97/react-native-barcode-reader.git",
-      "/home/ama/Downloads/BarcodeReaderExample"
-    ]
-  ],
-  "_from": "git+https://github.com/maxiaodong97/react-native-barcode-reader.git",
-  "_id": "react-native-barcode-reader@1.0.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/react-native-barcode-reader",
-  "_phantomChildren": {},
-  "_requested": {
-    "hosted": {
-      "directUrl": "https://raw.githubusercontent.com/maxiaodong97/react-native-barcode-reader/master/package.json",
-      "gitUrl": "git://github.com/maxiaodong97/react-native-barcode-reader.git",
-      "httpsUrl": "git+https://github.com/maxiaodong97/react-native-barcode-reader.git",
-      "shortcut": "github:maxiaodong97/react-native-barcode-reader",
-      "ssh": "git@github.com:maxiaodong97/react-native-barcode-reader.git",
-      "sshUrl": "git+ssh://git@github.com/maxiaodong97/react-native-barcode-reader.git",
-      "type": "github"
-    },
-    "name": "react-native-barcode-reader",
-    "raw": "react-native-barcode-reader@https://github.com/maxiaodong97/react-native-barcode-reader.git",
-    "rawSpec": "https://github.com/maxiaodong97/react-native-barcode-reader.git",
-    "scope": null,
-    "spec": "git+https://github.com/maxiaodong97/react-native-barcode-reader.git",
-    "type": "hosted"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/maxiaodong97/react-native-barcode-reader.git#b8537d4af8c51210d87bec7fd074481f69409d27",
-  "_shasum": "38ec1a6e5972a3caab815fb036293188fb859b2a",
-  "_shrinkwrap": null,
-  "_spec": "react-native-barcode-reader@https://github.com/maxiaodong97/react-native-barcode-reader.git",
-  "_where": "/home/ama/Downloads/BarcodeReaderExample",
-  "author": {
-    "name": "Adam Ma"
-  },
-  "bugs": {
-    "url": "https://github.com/maxiaodong97/react-native-barcode-reader/issues"
-  },
-  "dependencies": {},
-  "description": "barcoder reader for android using google play service",
-  "devDependencies": {},
-  "gitHead": "b8537d4af8c51210d87bec7fd074481f69409d27",
-  "homepage": "https://github.com/maxiaodong97/react-native-barcode-reader#readme",
-  "keywords": [
-    "barcode",
-    "camera",
-    "react-native"
-  ],
-  "license": "MIT",
-  "main": "BarcodeReaderView.js",
   "name": "react-native-barcode-reader",
-  "optionalDependencies": {},
-  "readme": "# react-native-barcode-reader\n",
-  "readmeFilename": "README.md",
+  "version": "1.0.0",
+  "description": "barcoder reader for android using google play service",
+  "main": "BarcodeReaderView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maxiaodong97/react-native-barcode-reader.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "react-native",
+    "barcode",
+    "camera"
+  ],
+  "author": "Adam Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxiaodong97/react-native-barcode-reader/issues"
   },
-  "version": "1.0.0"
+  "homepage": "https://github.com/maxiaodong97/react-native-barcode-reader#readme",
 }
