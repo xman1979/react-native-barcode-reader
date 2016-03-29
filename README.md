@@ -5,7 +5,7 @@ Suport only android, for iOS you can use react-native-camera.
 
 It is more stable and license friendly comparing with the ones using zxing implementation. 
 
-**NOTE** These docs are for the work in progress v1 release. If you want to use the latest and greatest and can deal with *significant* instability you can install with `npm install --save maxiaodong97/react-native-barcode-reader
+**NOTE** These docs are for the work in progress v1 release. 
 
 ## Known Issues (To be fixed)
 1. Need to give [width height], [flex: 1] not working yet.
