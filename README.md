@@ -14,7 +14,7 @@ It is more stable and license friendly comparing with the ones using zxing imple
 
 ## Getting started
 #### Android
-1. `npm install react-native-barcode-reader@https://github.com/maxiaodong97/react-native-barcode-reader.git --save`
+1. `npm install react-native-barcode-reader@https://github.com/xman1979/react-native-barcode-reader.git --save`
 2. Open up `android/app/src/main/java/[...]/MainActivity.java
   - Add `import com.maxiadoong97.barcode.*;` to the imports at the top of the file
   - Add `new BarcodeReader()` to the list returned by the `getPackages()` method
